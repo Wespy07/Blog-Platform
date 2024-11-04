@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBFhJljFjipRwi2MNux00RDhcXfV7WLhWQ",
+  apiKey: import.meta.env.VITE_APIKEY,
   authDomain: "alteroffice-e793b.firebaseapp.com",
   projectId: "alteroffice-e793b",
   storageBucket: "alteroffice-e793b.firebasestorage.app",
